@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Choose Your Own Adventure Game
+
+This is a React-based choose your own adventure game where you play as a piece of macaroni navigating various scenarios!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
