@@ -37,7 +37,6 @@ const usePath = () => {
             option3: screens[0].options[2]
         });
     }
-    console.log("Current screen: ", screen.end);
     return { screen, options, handleOptionClick, startOverClick };
 }
 
