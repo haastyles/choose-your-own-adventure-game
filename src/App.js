@@ -1,5 +1,5 @@
 import './App.css';
-import PromptScreen from './components/PrompScreen';
+import PromptScreen from './components/PromptScreen';
 
 function App() {
   return (

@@ -1,25 +1,21 @@
 function Buttons({
     options,
-    handleOptionClick,
-    endGame,
-    startOverClick
+    handleOptionClick
 }) {
-    if (endGame === true) {
-        return (
-            <>
-                <div className="end-game">Game Over</div>
-                <button onClick={startOverClick()}>Play Again?</button>
-            </> 
-        );
-    } else {
-        return (
-            <div className="buttons">
-                <button className="option1" onClick={() => handleOptionClick(0)}>{options.option1.option}</button>
-                <button className="option2" onClick={() => handleOptionClick(1)}>{options.option2.option}</button>
-                <button className="option3" onClick={() => handleOptionClick(2)}>{options.option3.option}</button>
-            </div>
-        );
-    }
+    console.log("Buttons.jsx ", options);
+    
+    // Convert options object to array
+    const optionsArray = Object.values(options).filter(option => option && option.option);
+    
+    return (
+        <div className="buttons">
+            {optionsArray.map((option, index) => (
+                <button key={index} className={`option${index + 1}`} onClick={() => handleOptionClick(index)}>
+                    {option.option}
+                </button>
+            ))}
+        </div>
+    );
 };
 
 export default Buttons;
