@@ -1,0 +1,731 @@
+[
+    {
+        "id": "start",
+        "end": false,
+        "text": "You are in an Italian cafe. You and your pasta friends are looking for a great escape, so you can have a beach day. What do you do?",
+        "options": [
+            {
+                "option": "Roll off of the counter",
+                "next": "oven"
+            },
+            {
+                "option": "Jump out of the window",
+                "next": "window"
+            },
+            {
+                "option": "Start talking to the chef",
+                "next": "chef"
+            }
+        ]
+    },
+    {
+        "id": "oven",
+        "end": false,
+        "text": "You end up under the oven and find a rat. You're worried you'll be eaten. What do you do?",
+        "options": [
+            {
+                "option": "Roll out from under the oven",
+                "next": "chef"
+            },
+            {
+                "option": "Tuck yourself in a corner",
+                "next": "corner"
+            },
+            {
+                "option": "Scream",
+                "next": "tomato"
+            }
+        ]
+    },
+    {
+        "id": "window",
+        "end": false,
+        "text": "You land in a bush with the neighborhood cats. You're stuck in a branch. What do you do?",
+        "options": [
+            {
+                "option": "Wiggle your way out",
+                "next": "ground"
+            },
+            {
+                "option": "Stay put and pretend they can't see you",
+                "next": "ground"
+            },
+            {
+                "option": "Scream",
+                "next": "bird"
+            }
+        ]
+    },
+    {
+        "id": "chef",
+        "end": false,
+        "text": "The chef sees you, freaks out, and grabs you to toss in a pot of boiling water. What do you do?",
+        "options": [
+            {
+                "option": "Wiggle your way out",
+                "next": "oven"
+            },
+            {
+                "option": "Accept your fate",
+                "next": "end chef"
+            },
+            {
+                "option": "Bite him",
+                "next": "vent"
+            }
+        ]
+    },
+    {
+        "id": "corner",
+        "end": false,
+        "text": "You find a hole in the wall. It could be the rat's home. What do you do?",
+        "options": [
+            {
+                "option": "Go into the hole",
+                "next": "rats"
+            },
+            {
+                "option": "Roll out from under the oven",
+                "next": "chef"
+            },
+            {
+                "option": "Scream",
+                "next": "tomato"
+            }
+        ]
+    },
+    {
+        "id": "tomato",
+        "end": false,
+        "text": "The rat is sick of you and throws a tomato at you. What do you do?",
+        "options": [
+            {
+                "option": "Roll out from under the oven",
+                "next": "rats"
+            },
+            {
+                "option": "Roll out from under the oven",
+                "next": "chef"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end tomato"
+            }
+        ]
+    },
+    {
+        "id": "ground",
+        "end": false,
+        "text": "The cats can tell you're struggling, so they untangle you from the bush. What do you do?",
+        "options": [
+            {
+                "option": "Run away! They might eat you!",
+                "next": "bicycle"
+            },
+            {
+                "option": "Thank them for the help",
+                "next": "town"
+            },
+            {
+                "option": "Scream",
+                "next": "bird"
+            }
+        ]
+    },
+    {
+        "id": "bird",
+        "end": false,
+        "text": "You scare the cats and they run off. From rustling the bush, you are freed. A bird swoops down who's attention you've grabbed. What do you do?",
+        "options": [
+            {
+                "option": "Ask them the way to town",
+                "next": "town"
+            },
+            {
+                "option": "Take a nap. You are exhausted.",
+                "next": "dream"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end bird"
+            }
+        ]
+    },
+    {
+        "id": "vent",
+        "end": false,
+        "text": "In doing so, you fall into a vent. You begin to explore through it. You finally come across the cafe's entryway. You see the hostess. What do you do?",
+        "options": [
+            {
+                "option": "Jump out of the vent",
+                "next": "cafe"
+            },
+            {
+                "option": "Keep moving through the vent",
+                "next": "hvac"
+            },
+            {
+                "option": "Scream",
+                "next": "roach"
+            }
+        ]
+    },
+    {
+        "id": "end chef",
+        "end": true,
+        "text": "You've accepted your fate as a delicious piece of pasta. You angel, you. You're going to pasta heaven.",
+        "options": []
+    },
+    {
+        "id": "rats",
+        "end": false,
+        "text": "There a many rats in the hole. They are having a dance party. It looks like you've stumbled upon a rat club. What do you do?",
+        "options": [
+            {
+                "option": "Party with the rats",
+                "next": "tired"
+            },
+            {
+                "option": "Ask the rat DJ to play some better tunes",
+                "next": "crack"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "end tomato",
+        "end": true,
+        "text": "The rat continues to throw tomatoes at you because you are so annoying. Don't you do anything else?",
+        "options": []
+    },
+    {
+        "id": "bicycle",
+        "end": false,
+        "text": "You see a cyclist with some beach gear in their basket. They might be headed to the beach. What do you do?",
+        "options": [
+            {
+                "option": "Jump on their wheel spoke to catch a ride",
+                "next": "speed"
+            },
+            {
+                "option": "Ignore them and keep walking",
+                "next": "town"
+            },
+            {
+                "option": "Scream",
+                "next": "bird-2"
+            }
+        ]
+    },
+    {
+        "id": "town",
+        "end": false,
+        "text": "You get the directions to town and keep walking. You trip on a rock and begin to stumble down a hill. You're so dizzy. What do you do?",
+        "options": [
+            {
+                "option": "Get up and keep walking",
+                "next": "drain"
+            },
+            {
+                "option": "Give up and cry",
+                "next": "dog"
+            },
+            {
+                "option": "Scream",
+                "next": "end worm"
+            }
+        ]
+    },
+    {
+        "id": "dream",
+        "end": false,
+        "text": "You have a wonderful dream of the beach. You're in such a deep sleep that you fall into a drain. The drain leads to a hole in the cafe. There a many rats in the hole. They are having a dance party. It looks like you've stumbled upon a rat club. What do you do?",
+        "options": [
+            {
+                "option": "Party with the rats",
+                "next": "tired"
+            },
+            {
+                "option": "Ask the rat DJ to play some better tunes",
+                "next": "crack"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "end bird",
+        "end": true,
+        "text": "The bird screams back at you because you are so annoying. Don't you do anything else?",
+        "options": []
+    },
+    {
+        "id": "bird-2",
+        "end": false,
+        "text": "A bird swoops down who's attention you've grabbed. What do you do?",
+        "options": [
+            {
+                "option": "Ask them the way to town",
+                "next": "town"
+            },
+            {
+                "option": "Take a nap. You are exhausted.",
+                "next": "dream"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end bird"
+            }
+        ]
+    },
+    {
+        "id": "cafe",
+        "end": false,
+        "text": "You fall onto the hostess's head. She screams and throws you out the window. You land in a bush with the neighborhood cats. You're stuck in a branch. What do you do?",
+        "options": [
+            {
+                "option": "Wiggle your way out",
+                "next": "ground"
+            },
+            {
+                "option": "Stay put and pretend they can't see you",
+                "next": "ground"
+            },
+            {
+                "option": "Scream",
+                "next": "bird"
+            }
+        ]
+    },
+    {
+        "id": "hvac",
+        "end": false,
+        "text": "You keep moving through the vent and find yourself in the HVAC system. You get jostled by the fan and are launched into the air and into a bush. You're stuck. You see some neighborhood cats. What do you do?",
+        "options": [
+            {
+                "option": "Wiggle your way out",
+                "next": "ground"
+            },
+            {
+                "option": "Stay put and pretend they can't see you",
+                "next": "ground"
+            },
+            {
+                "option": "Scream",
+                "next": "bird"
+            }
+        ]
+    },
+    {
+        "id": "roach",
+        "end": false,
+        "text": "You attract a stampede of roaches who are running down the vent. They might know the way out. What do you do?",
+        "options": [
+            {
+                "option": "Ride the stampede",
+                "next": "hvac"
+            },
+            {
+                "option": "Jump out onto the hostess",
+                "next": "cafe"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end roach"
+            }
+        ]
+    },
+    {
+        "id": "end roach",
+        "end": true,
+        "text": "The roaches steamrole over you because you are so annoying. Don't you do anything else?",
+        "options": []
+    },
+    {
+        "id": "tired",
+        "end": false,
+        "text": "You party too hard and you get dehydrated. You're getting woozy, but the beats are so good. What do you do?",
+        "options": [
+            {
+                "option": "Keep dancing",
+                "next": "vent"
+            },
+            {
+                "option": "Take a break and drink some water",
+                "next": "watercooler"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "crack",
+        "end": false,
+        "text": "The rat DJ is offended by your request. He throws you out of the club. You see a crack in the wall that you could fit in. What do you do?",
+        "options": [
+            {
+                "option": "Squeeze through the crack",
+                "next": "outside"
+            },
+            {
+                "option": "Write a bad review of their establishment on Yelp",
+                "next": "crack-2"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "music",
+        "end": false,
+        "text": "The rats mistake your screams for part of their sick beats. No one notices you and keeps dancing. What do you do?",
+        "options": [
+            {
+                "option": "Give up and dance with the rats",
+                "next": "tired"
+            },
+            {
+                "option": "Start a bar fight",
+                "next": "fight"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end music"
+            }
+        ]
+    },
+    {
+        "id": "speed",
+        "end": false,
+        "text": "You're gripping for dear life, but you can't hold much longer. You're slipping off the edge! What do you do?",
+        "options": [
+            {
+                "option": "KEEP HOLDING ON!",
+                "next": "end beach"
+            },
+            {
+                "option": "Let go and accept your fate",
+                "next": "end beach"
+            },
+            {
+                "option": "Scream",
+                "next": "person"
+            }
+        ]
+    },
+    {
+        "id": "end beach",
+        "end": true,
+        "text": "You slip and fall onto the ground. Oh no! You panic as you fall, but wait... the ground is soft, sandy, and warm. The beach! You've arrived at the beach. Time to have a beach day party!",
+        "options": []
+    },
+    {
+        "id": "drain",
+        "end": false,
+        "text": "As you keep walking, you slip through a sewer grate. You're stuck in the water and it's flowing FAST. What do you do?",
+        "options": [
+            {
+                "option": "Keep swimming and let's see where you go",
+                "next": "end beach-2"
+            },
+            {
+                "option": "Grab the wall and try to climb out",
+                "next": "lizard"
+            },
+            {
+                "option": "Scream",
+                "next": "end drain"
+            }
+        ]
+    },
+    {
+        "id": "dog",
+        "end": false,
+        "text": "Your loud sobs grab the attention of a dog. They seem friendly. What do you do?",
+        "options": [
+            {
+                "option": "Ask the dog for help",
+                "next": "dash"
+            },
+            {
+                "option": "Cry even louder",
+                "next": "end dog"
+            },
+            {
+                "option": "Scream",
+                "next": "end worm"
+            }
+        ]
+    },
+    {
+        "id": "watercooler",
+        "end": false,
+        "text": "You meet a super cool rat at the bar. They offer you a ride out of there. What do you do?",
+        "options": [
+            {
+                "option": "Accept the ride",
+                "next": "car"
+            },
+            {
+                "option": "Politely decline and keep dancing",
+                "next": "vent"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "outside",
+        "end": false,
+        "text": "You slip out of the crack and fall onto the ground. You see a little car. Maybe it belongs to a rat in the club. There's a set of keys inside and a map of town. What do you do?",
+        "options": [
+            {
+                "option": "Take the car",
+                "next": "tire"
+            },
+            {
+                "option": "Just take the map",
+                "next": "town"
+            },
+            {
+                "option": "Scream",
+                "next": "bird-2"
+            }
+        ]
+    },
+    {
+        "id": "crack-2",
+        "end": false,
+        "text": "You don't know what Yelp is, silly. You're a piece of pasta. The crack is still there. What do you do?",
+        "options": [
+            {
+                "option": "Squeeze through the crack",
+                "next": "outside"
+            },
+            {
+                "option": "Scream",
+                "next": "music"
+            }
+        ]
+    },
+    {
+        "id": "fight",
+        "end": false,
+        "text": "Fists are flying and rats are biting. It looks like you've created a crazy distraction. You slip through a crack outside and see a car. It could belong to a rat in the club. There are keys inside and a map to town. What do you do?",
+        "options": [
+            {
+                "option": "Take the car",
+                "next": "tire"
+            },
+            {
+                "option": "Just take the map",
+                "next": "town"
+            },
+            {
+                "option": "Scream",
+                "next": "bird-2"
+            }
+        ]
+    },
+    {
+        "id": "end music",
+        "end": true,
+        "text": "Your screams cause the little rat discoball to fall on you. Your journey has ended, fool. No beach day for you.",
+        "options": []
+    },
+    {
+        "id": "person",
+        "end": false,
+        "text": "You've startled the cyclist and they look down. WTF? A talking piece of pasta? They speed off in terror. The force of the bike knocks you into a drain. You're stuck in moving water. What do you do?",
+        "options": [
+            {
+                "option": "Keep swimming and let's see where you go",
+                "next": "end beach-2"
+            },
+            {
+                "option": "Grab the wall and try to climb out",
+                "next": "lizard"
+            },
+            {
+                "option": "Scream",
+                "next": "end drain"
+            }
+        ]
+    },
+    {
+        "id": "end beach-2",
+        "end": true,
+        "text": "You're flowing through the water fast. You see a light approaching in the distance. It hits you quick and you're knocked out onto the ground. The ground is soft and damp. SAND! You've arrived at the beach. Time to have a beach day party!",
+        "options": []
+    },
+    {
+        "id": "lizard",
+        "end": false,
+        "text": "While grabbing the wall you see a lizard. He extends his hand to you. He wants to help you climb up the wall. What do you do?",
+        "options": [
+            {
+                "option": "Accept his hand",
+                "next": "grass"
+            },
+            {
+                "option": "Bite him",
+                "next": "end beach-3"
+            },
+            {
+                "option": "Scream",
+                "next": "end drain"
+            }
+        ]
+    },
+    {
+        "id": "end drain",
+        "end": true,
+        "text": "You can't swim or hold onto the wall while you're screaming. You drown, fool. Just kidding! You can't drown, but you can't go to the beach either.",
+        "options": []
+    },
+    {
+        "id": "dash",
+        "end": false,
+        "text": "The dog nuzzles you into their collar and dashes off. The wind is rushing past you, but you find yourself slipping. You can't hold on much longer. What do you do?",
+        "options": [
+            {
+                "option": "KEEP HOLDING ON!",
+                "next": "end beach"
+            },
+            {
+                "option": "Let go and accept your fate",
+                "next": "end beach"
+            },
+            {
+                "option": "Scream",
+                "next": "end worm"
+            }
+        ]
+    },
+    {
+        "id": "car",
+        "end": false,
+        "text": "The rat walks you outside to their car. You see they have a map that could lead to town. What do you do?",
+        "options": [
+            {
+                "option": "Get in the car",
+                "next": "tire"
+            },
+            {
+                "option": "Ask for the map so you can walk",
+                "next": "town"
+            },
+            {
+                "option": "Scream",
+                "next": "rock"
+            }
+        ]
+    },
+    {
+        "id": "tire",
+        "end": false,
+        "text": "Oh no! You have a flat tire. You don't know how to change a tire because you're a piece of pasta. What do you do?",
+        "options": [
+            {
+                "option": "Take the map and walk",
+                "next": "town"
+            },
+            {
+                "option": "Panic, cry, and throw up",
+                "next": "dog"
+            },
+            {
+                "option": "Scream",
+                "next": "bird-2"
+            }
+        ]
+    },
+    {
+        "id": "grass",
+        "end": false,
+        "text": "You hold onto the lizard and he pulls you up, climbs up the wall, and out of the drain. He leaves you on a grassy patch. You're atop of a hill. What do you do?",
+        "options": [
+            {
+                "option": "Walk down the hill",
+                "next": "end beach-4"
+            },
+            {
+                "option": "Take a nap and decide later",
+                "next": "rest"
+            },
+            {
+                "option": "Scream",
+                "next": "end worm"
+            }
+        ]
+    },
+    {
+        "id": "end beach-3",
+        "end": true,
+        "text": "OUCH! That hurt. The lizard retracts and knocks you into the water. You're flowing with the rushing water. You're panicking, but wait... there's a light a head. You're outside! And you're on the sand! It's beach time. Who would've thought you'd get here.",
+        "options": []
+    },
+    {
+        "id": "end worm",
+        "end": true,
+        "text": "A worm pops out of the ground and bullies you for your constant screaming. You aren't getting to the beach anytime soon.",
+        "options": []
+    },
+    {
+        "id": "rock",
+        "end": false,
+        "text": "The rat throws a rock at you for being annoying. They still are offering a ride. What do you do?",
+        "options": [
+            {
+                "option": "Get in the car",
+                "next": "tire"
+            },
+            {
+                "option": "Ask for the map so you can walk",
+                "next": "town"
+            },
+            {
+                "option": "Keep screaming",
+                "next": "end rock"
+            }
+        ]
+    },
+    {
+        "id": "end rock",
+        "end": true,
+        "text": "The rat peels out without you because you are so annoying. Can't you do anything else?",
+        "options": []
+    },
+    {
+        "id": "end beach-4",
+        "end": true,
+        "text": "As you walk down the hill you feel the warm and salty sea breeze. You hear the children playing and the seagulls squawking. It's here... the beach. Time to have a beach day party!",
+        "options": []
+    },
+    {
+        "id": "rest",
+        "end": false,
+        "text": "Okay silly, you've gotten your rest. You're still on the hill. What do you do?",
+        "options": [
+            {
+                "option": "Walk down the hill",
+                "next": "end beach-4"
+            },
+            {
+                "option": "Scream",
+                "next": "end worm"
+            }
+        ]
+    }
+]

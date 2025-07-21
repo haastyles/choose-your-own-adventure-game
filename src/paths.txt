@@ -1,0 +1,1437 @@
+Notes
+
+Description:
+You are a shape of pasta. You get to explore italy with all of your pasta friends.
+This game will determine which shape of pasta you are. You can be one of these options:
+1. Rotini
+2. Macaroni
+3. Linguini
+4. Angel Hair
+5. Lasagna
+6. Fafarlle
+7. Rigatoni
+8. Orecchiette
+9. Lumaconi
+10. Pastina
+
+Starting screen:
+You are in an Italian cafe. You and your pasta friends are looking for a great escape.
+What do you do?
+
+1. Stay put
+2. Roll off of the counter
+3. Jump out of the window
+4. Start talking to the chef
+=======================================================
+=======================================================
+=======================================================
+Screen 2:
+
+1. IF - Stay put
+    END - Angel Hair
+
+2. IF - Roll off of the counter
+You end up under the oven and find a rat. You're worried you'll be eaten.
+What do you do?
+
+    a. Roll out from under the oven.
+    b. Talk to him. Maybe he's Italian too.
+    c. Tuck yourself into a corner.
+    d. Scream.
+
+3. IF - Jump out of the window
+You land in a bush with the neighborhood cats. You're stuck in a branch. What do you do?
+
+    a. Wiggle your way out.
+    b. Yell for help.
+    c. Stay put and pretend they can't see you.
+    d. Scream.
+
+4. IF - Start talking to the chef
+The chef freaks out and grabs you to toss in a pot of boiling water. What do you do?
+
+    a. Wiggle your way out of his grip.
+    b. Yell for help.
+    C. Accept your fate.
+    d. Bite him.
+=======================================================
+=======================================================
+=======================================================
+Screen 3:
+
+2. IF - Roll off of the counter
+    a. Roll out from under the oven.
+    The chef sees you and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        ii. Yell for help.
+        iii. Accept your fate.
+        iv. Bite him.
+    b. Talk to him. Maybe he's Italian too.
+    Unfortunately, he is French. The language barrier causes some confusion, but he 
+    points to the corner where there is a hold in the wall. What do you do?
+        i. Go into the hole.
+        ii. Roll out from under the oven.
+        iii. Continue to speak Italian.
+        iv. Scream.
+    c. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+        i. Go into the hole.
+        ii. Roll out from under the oven.
+        iii. Ask the mouse about the hole.
+        iv. Scream.
+    d. Scream.
+    The chef looks under the oven, sees you, and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        ii. Yell for help.
+        iii. Accept your fate.
+        iv. Bite him.
+
+
+3. IF - Jump out of the window
+    a. Wiggle your way out.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        ii. Thank them for the help.
+        iii. Invite them to the beach.
+        iv. Scream.
+    b. Yell for help.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        ii. Look for the nearest beach.
+        iii. Take a nap.
+        iv. Scream.
+    c. Stay put and pretend they can't see you.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        ii. Thank them for the help.
+        iii. Invite them to the beach.
+        iv. Scream.
+    d. Scream.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        ii. Look for the nearest beach.
+        iii. Take a nap.
+        iv. Keep screaming.
+
+4. IF - Start talking to the chef
+    a. Wiggle your way out of his grip.
+    You manage to escape and roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        ii. Talk to him. Maybe he's Italian too.
+        iii. Tuck yourself into a corner.
+        iv. Scream.
+    b. Yell for help.
+    He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        ii. Talk to him. Maybe he's Italian too.
+        iii. Tuck yourself into a corner.
+        iv. Scream.
+    c. Accept your fate.
+    END - ANGEL HAIR
+        You don't have any more options. You die and go to pasta heaven.
+    d. Bite him.
+    OUCH! He throws you in self-defense and you fly out of the window.
+    You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+        i. Wiggle your way out.
+        ii. Yell for help.
+        iii. Stay put and pretend they can't see you.
+        iv. Scream.
+
+=======================================================
+=======================================================
+=======================================================
+Screen 4:
+
+2. IF - Roll off of the counter
+    a. Roll out from under the oven.
+    The chef sees you and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        You manage to escape and roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            B. Talk to him. Maybe he's Italian too.
+            C. Tuck yourself into a corner.
+            D. Scream.
+        ii. Yell for help.
+        He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            B. Talk to him. Maybe he's Italian too.
+            C. Tuck yourself into a corner.
+            D. Scream.
+        iii. Accept your fate.
+        END - ANGEL HAIR
+            You don't have any more options. You die and go to pasta heaven.
+        iv. Bite him.
+        OUCH! He throws you in self-defense and you fly out of the window.
+        You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+            A. Wiggle your way out.
+            B. Yell for help.
+            C. Stay put and pretend they can't see you.
+            D. Scream.
+    b. Talk to him. Maybe he's Italian too.
+    Unfortunately, he is French. The language barrier causes some confusion, but he 
+    points to the corner where there is a hold in the wall. What do you do?
+        i. Go into the hole.
+        There a many rats in the hole. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        ii. Roll out from under the oven.
+        The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+            A. Wiggle your way out of his grip.
+            B. Yell for help.
+            C. Accept your fate.
+            D. Bite him.
+        iii. Continue to speak Italian.
+        The rat is tired and finally just walks into his hole. What do you do?
+            A. Follow him.
+            B. Roll out from under the oven.
+            C. Look for the nearest vent to slip into.
+            D. Scream
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    c. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+        i. Go into the hole.
+        There a many rats in the hole. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        ii. Roll out from under the oven.
+        The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+            A. Wiggle your way out of his grip.
+            B. Yell for help.
+            C. Accept your fate.
+            D. Bite him.
+        iii. Ask the mouse about the hole.
+        The rat ignores you because he doesn't speak Italian and finally just walks into his hole. What do you do?
+            A. Follow him.
+            B. Roll out from under the oven.
+            C. Look for the nearest vent to slip into.
+            D. Scream
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    d. Scream.
+    The chef looks under the oven, sees you, and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        You manage to escape and roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            B. Talk to him. Maybe he's Italian too.
+            C. Tuck yourself into a corner.
+            D. Scream.
+        ii. Yell for help.
+        He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            B. Talk to him. Maybe he's Italian too.
+            C. Tuck yourself into a corner.
+            D. Scream.
+        iii. Accept your fate.
+        END - ANGEL HAIR
+            You don't have any more options. You die and go to pasta heaven.
+        iv. Bite him.
+        OUCH! He throws you in self-defense and you fly out of the window.
+        You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+            A. Wiggle your way out.
+            B. Yell for help.
+            C. Stay put and pretend they can't see you.
+            D. Scream.
+
+
+3. IF - Jump out of the window
+    a. Wiggle your way out.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        Upon running away you slip into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        ii. Thank them for the help.
+        They are gracious and direct you to the nearest path into town. What do you do?
+            A. Start on the path to town.
+            B. Invite them to come along.
+            C. Take a nap. You're tired.
+            D. Scream
+        iii. Invite them to the beach.
+        They accept since they would like a day in the sun. They offer to strap you to their collar. What do you do?
+            A. Accept the ride.
+            B. Decide to walk beside them.
+            C. Take a bathroom break first.
+            D. Scream.
+        iv. Scream.
+        You startled the cats and they run out of the bushes. By doing so, you're knocked into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Keep screaming.
+    b. Yell for help.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        You've stumbled upon a bird that who is going to town. They show you the way. What do you do?
+            A. Start on the path to town.
+            B. Invite them to come along.
+            C. Take a nap. You're tired.
+            D. Scream
+        ii. Look for the nearest beach.
+        By walking out of the bush you see a cyclist with some beach gear in their basket.
+        They might be headed to the beach. What do you do?
+            A. Jump on their wheel spoke to catch a ride.
+            B. Ask them for help.
+            C. Ignore them. You want to walk.
+            D. Scream
+        iii. Take a nap.
+        You begin to have a deep sleep full of dreams about the beach.
+        You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        iv. Scream.
+    c. Stay put and pretend they can't see you.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        Upon running away you slip into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        ii. Thank them for the help.
+        They are gracious and direct you to the nearest path into town. What do you do?
+            A. Start on the path to town.
+            B. Invite them to come along.
+            C. Take a nap. You're tired.
+            D. Scream
+        iii. Invite them to the beach.
+        They accept since they would like a day in the sun. They offer to strap you to their collar. What do you do?
+            A. Accept the ride.
+            B. Decide to walk beside them.
+            C. Take a bathroom break first.
+            D. Scream.
+        iv. Scream.
+        You startled the cats and they run out of the bushes. By doing so, you're knocked into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Keep screaming.
+    d. Scream.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        You've stumbled upon a bird that who is going to town. They show you the way. What do you do?
+            A. Start on the path to town.
+            B. Invite them to come along.
+            C. Take a nap. You're tired.
+            D. Scream
+        ii. Look for the nearest beach.
+        By walking out of the bush you see a cyclist with some beach gear in their basket.
+        They might be headed to the beach. What do you do?
+            A. Jump on their wheel spoke to catch a ride.
+            B. Ask them for help.
+            C. Ignore them. You want to walk.
+            D. Scream
+        iii. Take a nap.
+        You begin to have a deep sleep full of dreams about the beach.
+        You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            B. Ask the rat DJ to play some better tunes.
+            C. Ask for the nearest exit.
+            D. Scream.
+        iv. Keep screaming.
+        END - Macaroni
+            You are very annoying. Why can't you do anything else?
+
+4. IF - Start talking to the chef
+    a. Wiggle your way out of his grip.
+    You manage to escape and roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        The chef must've ran out from stress. You see a crack in the wall.
+        Maybe it leads outside. What do you do?
+            A. Wiggle your way through it.
+            B. Go back under the oven.
+            C. Take a nap.
+            D. Scream.
+        ii. Talk to him. Maybe he's Italian too.
+        Unfortunately, he is French. The language barrier causes some confusion, but he 
+        points to the corner where there is a hold in the wall. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Continue to speak Italian.
+            D. Scream.
+        iii. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Ask the mouse about the hole.
+            D. Scream.
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    b. Yell for help.
+    He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        The chef must've ran out from stress. You see a crack in the wall.
+        Maybe it leads outside. What do you do?
+            A. Wiggle your way through it.
+            B. Go back under the oven.
+            C. Take a nap.
+            D. Scream.
+        ii. Talk to him. Maybe he's Italian too.
+        Unfortunately, he is French. The language barrier causes some confusion, but he 
+        points to the corner where there is a hold in the wall. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Continue to speak Italian.
+            D. Scream.
+        iii. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Ask the mouse about the hole.
+            D. Scream.
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    c. Accept your fate.
+    END - ANGEL HAIR
+        You don't have any more options. You die and go to pasta heaven.
+    d. Bite him.
+    OUCH! He throws you in self-defense and you fly out of the window.
+    You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+        i. Wiggle your way out.
+        The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+            A. Run away! They might want to eat you.
+            B. Thank them for the help.
+            C. Invite them to the beach.
+            D. Scream.
+        ii. Yell for help.
+        You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+            A. Run out of the bush.
+            B. Look for the nearest beach.
+            C. Take a nap.
+            D. Scream.
+        iii. Stay put and pretend they can't see you.
+        The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+            A. Run away! They might want to eat you.
+            B. Thank them for the help.
+            C. Invite them to the beach.
+            D. Scream.
+        iv. Scream.
+        You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+            A. Run out of the bush.
+            B. Look for the nearest beach.
+            C. Take a nap.
+            D. Keep screaming.
+
+=======================================================
+=======================================================
+=======================================================
+Screen 5:
+
+2. IF - Roll off of the counter
+    a. Roll out from under the oven.
+    The chef sees you and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        You manage to escape and roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            The chef must've ran out from stress. You see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Talk to him. Maybe he's Italian too.
+            Unfortunately, he is French. The language barrier causes some confusion, but he 
+            points to the corner where there is a hold in the wall. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Continue to speak Italian.
+                IV. Scream.
+            C. Tuck yourself into a corner.
+            You find a hole in the wall. It could be the rat's home. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Ask the mouse about the hole.
+                IV. Scream.
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+        ii. Yell for help.
+        He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            The chef must've ran out from stress. You see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Talk to him. Maybe he's Italian too.
+            Unfortunately, he is French. The language barrier causes some confusion, but he 
+            points to the corner where there is a hold in the wall. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Continue to speak Italian.
+                IV. Scream.
+            C. Tuck yourself into a corner.
+            You find a hole in the wall. It could be the rat's home. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Ask the mouse about the hole.
+                IV. Scream.
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+        iii. Accept your fate.
+        END - ANGEL HAIR
+            You don't have any more options. You die and go to pasta heaven.
+        iv. Bite him.
+        OUCH! He throws you in self-defense and you fly out of the window.
+        You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+            A. Wiggle your way out.
+            The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+                I. Run away! They might want to eat you.
+                II. Thank them for the help.
+                III. Invite them to the beach.
+                IV. Scream.
+            B. Yell for help.
+            You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+                I. Run out of the bush.
+                II. Look for the nearest beach.
+                III. Take a nap.
+                IV. Scream.
+            C. Stay put and pretend they can't see you.
+            The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+                I. Run away! They might want to eat you.
+                II. Thank them for the help.
+                III. Invite them to the beach.
+                IV. Scream.
+            D. Scream.
+            You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+                I. Run out of the bush.
+                II. Look for the nearest beach.
+                III. Take a nap.
+                IV. Keep screaming.
+    b. Talk to him. Maybe he's Italian too.
+    Unfortunately, he is French. The language barrier causes some confusion, but he 
+    points to the corner where there is a hold in the wall. What do you do?
+        i. Go into the hole.
+        There a many rats in the hole. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        ii. Roll out from under the oven.
+        The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+            A. Wiggle your way out of his grip.
+            You manage to escape and roll under the oven. You see the rat again. What do you do?
+                I. Roll out from under the oven and take a chance with the chef again.
+                II. Talk to him. Maybe he's Italian too.
+                III. Tuck yourself into a corner.
+                IV. Scream.
+            B. Yell for help.
+            He panicks and drops you, and you fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            C. Accept your fate.
+            END - Angel Hair
+                You don't have any more options. You die and go to pasta heaven.
+            D. Bite him.
+            OUCH! That hurt! He panicks and drops you, and you fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+        iii. Continue to speak Italian.
+        The rat is tired and finally just walks into his hole. What do you do?
+            A. Follow him.
+            There a many rats in the hole. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            B. Roll out from under the oven.
+            The chef must've ran out from stress. You see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            C. Look for the nearest vent to slip into.
+            You find a vent to walk through. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            D. Scream.
+            END - Macaroni
+                You are very annoying. Don't you do anything else?
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            He points to outside of the oven and you see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Roll out from under the oven.
+            You don't see the chef, but you see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            C. Look water to clean yourself off.
+            You can't find any water so you keep exploring. You fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            D. Keep screaming.
+            END - Macaroni
+                You are very annoying. Don't you do anything else?
+    c. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+        i. Go into the hole.
+        There a many rats in the hole. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        ii. Roll out from under the oven.
+        The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+            A. Wiggle your way out of his grip.
+            You manage to escape and roll under the oven. You see the rat again. What do you do?
+                I. Roll out from under the oven and take a chance with the chef again.
+                II. Talk to him. Maybe he's Italian too.
+                III. Tuck yourself into a corner.
+                IV. Scream.
+            B. Yell for help.
+            He panicks and drops you, and you fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            C. Accept your fate.
+            END - Angel Hair
+                You don't have any more options. You die and go to pasta heaven.
+            D. Bite him.
+            OUCH! That hurt! He panicks and drops you, and you fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+        iii. Ask the mouse about the hole.
+        The rat ignores you because he doesn't speak Italian and finally just walks into his hole. What do you do?
+            A. Follow him.
+            There a many rats in the hole. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            B. Roll out from under the oven.
+            You don't see the chef, but you see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                You fall out of the crack and into a bush. You're stuck. What do you do?
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            C. Look for the nearest vent to slip into.
+            You find a vent to walk through. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            D. Scream.
+            END - Macaroni
+                You are very annoying. Don't you do anything else?
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+           A. Finally ask for help.
+            He points to outside of the oven and you see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Roll out from under the oven.
+            You don't see the chef, but you see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            C. Look water to clean yourself off.
+            You can't find any water so you keep exploring. You fall into a vent. You begin to explore through it.
+            You finally come across the cafe's entryway. You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            D. Keep screaming.
+            END - Macaroni
+                You are very annoying. Don't you do anything else?
+    d. Scream.
+    The chef looks under the oven, sees you, and grabs you to toss in a pot of boiling water. What do you do?
+        i. Wiggle your way out of his grip.
+        You manage to escape and roll under the oven. You see a rat. What do you do?
+            A. Roll out from under the oven and take a chance with the chef again.
+            The chef must've ran out from stress. You see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Talk to him. Maybe he's Italian too.
+            Unfortunately, he is French. The language barrier causes some confusion, but he 
+            points to the corner where there is a hold in the wall. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Continue to speak Italian.
+                IV. Scream.
+            C. Tuck yourself into a corner.
+            You find a hole in the wall. It could be the rat's home. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Ask the mouse about the hole.
+                IV. Scream.
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+        ii. Yell for help.
+        He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+           A. Roll out from under the oven and take a chance with the chef again.
+            The chef must've ran out from stress. You see a crack in the wall.
+            Maybe it leads outside. What do you do?
+                I. Wiggle your way through it.
+                II. Go back under the oven.
+                III. Take a nap.
+                IV. Scream.
+            B. Talk to him. Maybe he's Italian too.
+            Unfortunately, he is French. The language barrier causes some confusion, but he 
+            points to the corner where there is a hold in the wall. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Continue to speak Italian.
+                IV. Scream.
+            C. Tuck yourself into a corner.
+            You find a hole in the wall. It could be the rat's home. What do you do?
+                I. Go into the hole.
+                II. Roll out from under the oven.
+                III. Ask the mouse about the hole.
+                IV. Scream.
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+        iii. Accept your fate.
+        END - ANGEL HAIR
+            You don't have any more options. You die and go to pasta heaven.
+        iv. Bite him.
+        OUCH! He throws you in self-defense and you fly out of the window.
+        You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+            A. Wiggle your way out.
+            The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+                I. Run away! They might want to eat you.
+                II. Thank them for the help.
+                III. Invite them to the beach.
+                IV. Scream.
+            B. Yell for help.
+            You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+                I. Run out of the bush.
+                II. Look for the nearest beach.
+                III. Take a nap.
+                IV. Scream.
+            C. Stay put and pretend they can't see you.
+            The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+                I. Run away! They might want to eat you.
+                II. Thank them for the help.
+                III. Invite them to the beach.
+                IV. Scream.
+            D. Scream.
+            You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+                I. Run out of the bush.
+                II. Look for the nearest beach.
+                III. Take a nap.
+                IV. Keep screaming.
+
+
+3. IF - Jump out of the window
+    a. Wiggle your way out.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        Upon running away you slip into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        ii. Thank them for the help.
+        They are gracious and direct you to the nearest path into town. What do you do?
+            A. Start on the path to town.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            B. Invite them to come along.
+            They accept since they would like a day out. They offer to strap you to their collar. What do you do?
+                I. Accept the ride.
+                II. Decide to walk beside them.
+                III. Take a bathroom break first.
+                IV. Scream.
+            C. Take a nap. You're tired.
+            You begin to have a deep sleep full of dreams about the beach.
+            You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+            There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream
+            You scare the cats off and cat the attention of a bird heading to town.
+            They show you the way there. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Keep screaming.
+        iii. Invite them to the beach.
+        They accept since they would like a day in the sun. They offer to strap you to their collar. What do you do?
+            A. Accept the ride.
+            END - Rotini
+                Dart, dash, woosh! The cats are moving fast! You feel yourself slipping out of their collar.
+                You are to panick. You feel yourself slip. AHHH! You fall, but wait... the ground is soft.
+                You've reached the beach! It's time for a beach day!
+            B. Decide to walk beside them.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            C. Take a bathroom break first.
+            As you walk back to relieve yourself, you find yourself slipping through a drain.
+            It leads down to a hole. There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream.
+            You scare the cats off and cat the attention of a bird heading to town.
+            They show you the way there. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Keep screaming.
+        iv. Scream.
+        You startled the cats and they run out of the bushes. By doing so, you're knocked into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+    b. Yell for help.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        You've stumbled upon a bird that who is going to town. They show you the way. What do you do?
+            A. Start on the path to town.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            B. Invite them to come along.
+            They accept and offer to fly you over town. You can sit between their feet.
+            This would be a lot quicker, but it could be dangerous. What do you do?
+                I. Accept and climb on to their feet.
+                II. Polity decline, but walk beside them.
+                III. Aggressively grab their feet.
+                IV. Scream
+            C. Take a nap. You're tired.
+            You begin to have a deep sleep full of dreams about the beach.
+            You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+            There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream
+            END
+                The bird is pissed. They scream back at you and fly away.
+                The force of their flight knocks you down the hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+        ii. Look for the nearest beach.
+        By walking out of the bush you see a cyclist with some beach gear in their basket.
+        They might be headed to the beach. What do you do?
+            A. Jump on their wheel spoke to catch a ride.
+            Up and down and up and down and up and down. You're fighting for your life to stay on this bike.
+            You don't know how much longer you can hold on. What do you do?
+                I. Keep holding on.
+                II. Ask them to slow down.
+                III. Let go and accept your fate.
+                IV. Scream.
+            B. Ask them for help.
+            The cyclist thought they heard something and look down. AHHH! A talking piece of pasta?
+            They've never seen anything like it. They speed off in fear. Well, all alone. What do you do?
+                I. Keep walking toward town.
+                II. Cry. They hurt your feelings.
+                III. Hurl a rock at the cyclist.
+                IV. Scream.
+            C. Ignore them. You want to walk.
+            END
+                You're determined begin walking down the hill, and then you trip fall down a hill.
+                You're so dizzy. As you come to you see that the beach is in front of you.
+                You think you're seeing things, but no, it's time for a beach day party!
+            D. Scream
+            The cyclist thought they heard something and look down. AHHH! A talking piece of pasta?
+            They've never seen anything like it. They speed off in fear. Well, all alone. What do you do?
+                I. Start walking towards town.
+                II. Cry. They hurt your feelings.
+                III. Hurl a rock at the cyclist.
+                IV. Keep screaming.
+        iii. Take a nap.
+        You begin to have a deep sleep full of dreams about the beach.
+        You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        iv. Scream.
+    c. Stay put and pretend they can't see you.
+    The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+        i. Run away! They might want to eat you.
+        Upon running away you slip into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?==
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        ii. Thank them for the help.
+        They are gracious and direct you to the nearest path into town. What do you do?
+            A. Start on the path to town.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            B. Invite them to come along.
+            They accept since they would like a day out. They offer to strap you to their collar. What do you do?
+                I. Accept the ride.
+                II. Decide to walk beside them.
+                III. Take a bathroom break first.
+                IV. Scream.
+            C. Take a nap. You're tired.
+            You begin to have a deep sleep full of dreams about the beach.
+            You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+            There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream
+            You scare the cats off and cat the attention of a bird heading to town.
+            They show you the way there. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Keep screaming.
+        iii. Invite them to the beach.
+        They accept since they would like a day in the sun. They offer to strap you to their collar. What do you do?
+            A. Accept the ride.
+            END - Rotini
+                Dart, dash, woosh! The cats are moving fast! You feel yourself slipping out of their collar.
+                You are to panick. You feel yourself slip. AHHH! You fall, but wait... the ground is soft.
+                You've reached the beach! It's time for a beach day!
+            B. Decide to walk beside them.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            C. Take a bathroom break first.
+            As you walk back to relieve yourself, you find yourself slipping through a drain.
+            It leads down to a hole. There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream.
+            You scare the cats off and cat the attention of a bird heading to town.
+            They show you the way there. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Keep screaming.
+        iv. Scream.
+        You startled the cats and they run out of the bushes. By doing so, you're knocked into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+    d. Scream.
+    You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+        i. Run out of the bush.
+        You've stumbled upon a bird that who is going to town. They show you the way. What do you do?
+            A. Start on the path to town.
+            END - Rotini
+                You begin walking and you trip and fall down a hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+            B. Invite them to come along.
+            They accept and offer to fly you over town. You can sit between their feet.
+            This would be a lot quicker, but it could be dangerous. What do you do?
+                I. Accept and climb on to their feet.
+                II. Polity decline, but walk beside them.
+                III. Aggressively grab their feet.
+                IV. Scream
+            C. Take a nap. You're tired.
+            You begin to have a deep sleep full of dreams about the beach.
+            You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+            There a many rats in the here. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            D. Scream
+            END
+                The bird is pissed. They scream back at you and fly away.
+                The force of their flight knocks you down the hill. You're so dizzy.
+                As you come to you see that the beach is in front of you. you think you're seeing things,
+                but no, it's time for a beach day party!
+        ii. Look for the nearest beach.
+        By walking out of the bush you see a cyclist with some beach gear in their basket.
+        They might be headed to the beach. What do you do?
+            A. Jump on their wheel spoke to catch a ride.
+            Up and down and up and down and up and down. You're fighting for your life to stay on this bike.
+            You don't know how much longer you can hold on. What do you do?
+                I. Keep holding on.
+                II. Ask them to slow down.
+                III. Let go and accept your fate.
+                IV. Scream.
+            B. Ask them for help.
+            The cyclist thought they heard something and look down. AHHH! A talking piece of pasta?
+            They've never seen anything like it. They speed off in fear. Well, all alone. What do you do?
+                I. Keep walking toward town.
+                II. Cry. They hurt your feelings.
+                III. Hurl a rock at the cyclist.
+                IV. Scream.
+            C. Ignore them. You want to walk.
+            END
+                You're determined begin walking down the hill, and then you trip fall down a hill.
+                You're so dizzy. As you come to you see that the beach is in front of you.
+                You think you're seeing things, but no, it's time for a beach day party!
+            D. Scream
+            The cyclist thought they heard something and look down. AHHH! A talking piece of pasta?
+            They've never seen anything like it. They speed off in fear. Well, all alone. What do you do?
+                I. Start walking towards town.
+                II. Cry. They hurt your feelings.
+                III. Hurl a rock at the cyclist.
+                IV. Keep screaming.
+        iii. Take a nap.
+        You begin to have a deep sleep full of dreams about the beach.
+        You are in such a deep sleep that you roll over into a drain that leads under the cafe.
+        There a many rats in the here. They are having a dance party.
+        It looks like you've stumbled upon a rat club. What do you do?
+            A. Party with the rats.
+            You party too hard and you get dehydrated. The rats suggest taking you to their medic. What do you do?
+                I. Let them take you.
+                II. Refuse and keep partying.
+                III. Sit down and take a rest.
+                IV. Scream.
+            B. Ask the rat DJ to play some better tunes.
+            The rat DJ is offended by your music taste and kicks you out.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            C. Ask for the nearest exit.
+            They point you to this tunnel out of the rat club.
+            You find yourself in a drain outside of the cafe. There's a bird heading to town. What do you do?
+                I. Start on the path to town.
+                II. Invite them to come along.
+                III. Take a nap. You're tired.
+                IV. Scream
+            D. Scream.
+            The rats think that your scream is part of their sit beats and keep dancing. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Keep screaming.
+        iv. Keep screaming.
+        END - Macaroni
+            You are very annoying. Why can't you do anything else?
+
+4. IF - Start talking to the chef
+    a. Wiggle your way out of his grip.
+    You manage to escape and roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        The chef must've ran out from stress. You see a crack in the wall.
+        Maybe it leads outside. What do you do?
+            A. Wiggle your way through it.
+            You go through the crack and fall outside into a bush. You're stuck.
+            You see some neighborhood cats. What do you do?
+                I. Wiggle your way out.
+                II. Yell for help.
+                III. Stay put and pretend they can't see you.
+                IV. Scream.
+            B. Go back under the oven.
+            The rat is still there, but he ignores you and walks into the hole. What do you do?
+                I. Follow him.
+                II. Roll out from under the oven.
+                III. Look for the nearest vent to slip into.
+                IV. Scream
+            C. Take a nap.
+            You start to dream of a beautiful beach. You're having a wonderful beach day!
+            You're in such deep sleep that you roll over and fall into a vent.
+            You awake and begin to explore. You finally come across the cafe's entryway.
+            You see the hostess. What do you do?
+                I. Fall out of the vent.
+                II. Yell for help.
+                III. Take a nap. You're tired.
+                IV. Scream.
+            D. Scream.
+            The rat comes out from the oven and throws a tomato at you. He's tired of your antics.
+            Now you're covered in sauce. What do you do?
+                I. Ask the rat for help.
+                II. Run into the crack.
+                II. Look water to clean yourself off.
+                IV. Keep screaming.
+        ii. Talk to him. Maybe he's Italian too.
+        Unfortunately, he is French. The language barrier causes some confusion, but he 
+        points to the corner where there is a hold in the wall. What do you do?
+            A. Go into the hole.
+            There a many rats in the hole. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            B. Roll out from under the oven.
+            The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+                I. Wiggle your way out of his grip.
+                II. Yell for help.
+                III. Accept your fate.
+                IV. Bite him.
+            C. Continue to speak Italian.
+            The rat is tired and finally just walks into his hole. What do you do?
+                I. Follow him.
+                II. Roll out from under the oven.
+                III. Look for the nearest vent to slip into.
+                IV. Scream
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+        iii. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Ask the mouse about the hole.
+            D. Scream.
+        iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    b. Yell for help.
+    He panicks and drops you, so you roll under the oven. You see a rat. What do you do?
+        i. Roll out from under the oven and take a chance with the chef again.
+        The chef must've ran out from stress. You see a crack in the wall.
+        Maybe it leads outside. What do you do?
+            A. Wiggle your way through it.
+            B. Go back under the oven.
+            C. Take a nap.
+            D. Scream.
+        ii. Talk to him. Maybe he's Italian too.
+        Unfortunately, he is French. The language barrier causes some confusion, but he 
+        points to the corner where there is a hold in the wall. What do you do?
+            A. Go into the hole.
+            B. Roll out from under the oven.
+            C. Continue to speak Italian.
+            D. Scream.
+        iii. Tuck yourself into a corner.
+        You find a hole in the wall. It could be the rat's home. What do you do?
+            A. Go into the hole.
+            There a many rats in the hole. They are having a dance party.
+            It looks like you've stumbled upon a rat club. What do you do?
+                I. Party with the rats.
+                II. Ask the rat DJ to play some better tunes.
+                III. Ask for the nearest exit.
+                IV. Scream.
+            B. Roll out from under the oven.
+            The chef sees you, and grabs you to toss in a pot of boiling water. What do you do?
+                I. Wiggle your way out of his grip.
+                II. Yell for help.
+                III. Accept your fate.
+                IV. Bite him.
+            C. Ask the mouse about the hole.
+            The rat ignores you because he doesn't speak Italian and finally just walks into his hole. What do you do?
+                I. Follow him.
+                II. Roll out from under the oven.
+                III. Look for the nearest vent to slip into.
+                IV. Scream
+            D. Scream.
+            The rat is sick of you and throws a tomato at you. What do you do?
+                I. Finally ask for help.
+                II. Roll out from under the oven.
+                III. Look water to clean yourself off.
+                IV. Keep screaming.
+------------------------------------------
+------------------------------------------
+-----------START HERE --------------------
+------------------------------------------
+------------------------------------------
+       iv. Scream.
+        The rat is sick of you and throws a tomato at you. What do you do?
+            A. Finally ask for help.
+            B. Roll out from under the oven.
+            C. Look water to clean yourself off.
+            D. Keep screaming.
+    c. Accept your fate.
+    END - ANGEL HAIR
+        You don't have any more options. You die and go to pasta heaven.
+    d. Bite him.
+    OUCH! He throws you in self-defense and you fly out of the window.
+    You've fallen into a bush and now you are stuck. You see some neighborhood cats. What do you do?
+        i. Wiggle your way out.
+        The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+            A. Run away! They might want to eat you.
+            B. Thank them for the help.
+            C. Invite them to the beach.
+            D. Scream.
+        ii. Yell for help.
+        You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+            A. Run out of the bush.
+            B. Look for the nearest beach.
+            C. Take a nap.
+            D. Scream.
+        iii. Stay put and pretend they can't see you.
+        The cats can tell you're struggling, so they untangle you from the bush. What do you do?
+            A. Run away! They might want to eat you.
+            B. Thank them for the help.
+            C. Invite them to the beach.
+            D. Scream.
+        iv. Scream.
+        You scare the cats and they run off. From rustling the bush, you are freed. What do you do?
+            A. Run out of the bush.
+            B. Look for the nearest beach.
+            C. Take a nap.
+            D. Keep screaming.
