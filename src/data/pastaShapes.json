@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Angel Hair",
+        "description": "",
+        "alignment": "lawful good"
+    },
+    {
+        "id": 2,
+        "name": "Macaroni",
+        "description": "",
+        "alignment": "neutral good"
+    },
+    {
+        "id": 3,
+        "name": "Farfalle",
+        "description": "",
+        "alignment": "chaotic good"
+    },
+    {
+        "id": 4,
+        "name": "Fusilli",
+        "description": "",
+        "alignment": "lawful neutral"
+    },
+    {
+        "id": 5,
+        "name": "Spaghetti",
+        "description": "",
+        "alignment": "true neutral"
+    },
+    {
+        "id": 6,
+        "name": "Rigatoni",
+        "description": "",
+        "alignment": "chaotic neutral"
+    },
+    {
+        "id": 7,
+        "name": "Penne",
+        "description": "",
+        "alignment": "lawful evil"
+    },
+    {
+        "id": 8,
+        "name": "Pastina",
+        "description": "",
+            "alignment": "neutral evil"
+    },
+    {
+        "id": 9,
+        "name": "Rotelle",
+        "description": "",
+        "alignment": "chaotic evil"
+    }
+]

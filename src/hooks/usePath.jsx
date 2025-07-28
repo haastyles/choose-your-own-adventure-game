@@ -8,9 +8,13 @@ const usePath = () => {
         option2: screen.options[1],
         option3: screen.options[2]
     });
+    const [ optionCount1, setOptionCount1 ] = useState(0);
+    const [ optionCount2, setOptionCount2 ] = useState(0);
+    const [ optionCount3, setOptionCount3 ] = useState(0);
 
     const handleOptionClick = (i) => {
         const nextScreenId = screen.options[i].next;
+        const nextScreenType = screen.options[i].type;
         const nextScreen = screens.find(s => s.id === nextScreenId);
         if (typeof nextScreen !== "undefined" && nextScreen !== null) {
             setScreen(nextScreen);
@@ -26,6 +30,14 @@ const usePath = () => {
                 option2: nextScreen.options[1],
                 option3: nextScreen.options[2]
             });
+        }
+
+        if (nextScreenType === 1 ) {
+            setOptionCount1(optionCount1 + 1);
+        } else if (nextScreenType === 2) {
+            setOptionCount2(optionCount2 + 1);
+        } else if (nextScreenType === 3) {
+            setOptionCount3(optionCount3 + 1);
         }
     }
 

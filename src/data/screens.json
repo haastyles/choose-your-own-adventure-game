@@ -6,14 +6,17 @@
         "options": [
             {
                 "option": "Roll off of the counter",
+                "type": 1,
                 "next": "oven"
             },
             {
                 "option": "Jump out of the window",
+                "type": 2,
                 "next": "window"
             },
             {
                 "option": "Start talking to the chef",
+                "type": 3,
                 "next": "chef"
             }
         ]
@@ -25,14 +28,17 @@
         "options": [
             {
                 "option": "Roll out from under the oven",
+                "type": 1,
                 "next": "chef"
             },
             {
                 "option": "Tuck yourself in a corner",
+                "type": 2,
                 "next": "corner"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "tomato"
             }
         ]
@@ -44,14 +50,17 @@
         "options": [
             {
                 "option": "Wiggle your way out",
+                "type": 1,
                 "next": "ground"
             },
             {
                 "option": "Stay put and pretend they can't see you",
+                "type": 2,
                 "next": "ground"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "bird"
             }
         ]
@@ -63,14 +72,17 @@
         "options": [
             {
                 "option": "Wiggle your way out",
+                "type": 1,
                 "next": "oven"
             },
             {
                 "option": "Accept your fate",
-                "next": "end chef"
+                "next": "end chef",
+                "type": 0
             },
             {
                 "option": "Bite him",
+                "type": 3,
                 "next": "vent"
             }
         ]
@@ -82,14 +94,17 @@
         "options": [
             {
                 "option": "Go into the hole",
+                "type": 1,
                 "next": "rats"
             },
             {
                 "option": "Roll out from under the oven",
+                "type": 2,
                 "next": "chef"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "tomato"
             }
         ]
@@ -101,15 +116,18 @@
         "options": [
             {
                 "option": "Roll out from under the oven",
+                "type": 1,
                 "next": "rats"
             },
             {
                 "option": "Roll out from under the oven",
+                "type": 2,
                 "next": "chef"
             },
             {
                 "option": "Keep screaming",
-                "next": "end tomato"
+                "next": "end tomato",
+                "type": 0
             }
         ]
     },
@@ -120,14 +138,17 @@
         "options": [
             {
                 "option": "Run away! They might eat you!",
+                "type": 1,
                 "next": "bicycle"
             },
             {
                 "option": "Thank them for the help",
+                "type": 2,
                 "next": "town"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "bird"
             }
         ]
@@ -139,15 +160,18 @@
         "options": [
             {
                 "option": "Ask them the way to town",
+                "type": 1,
                 "next": "town"
             },
             {
                 "option": "Take a nap. You are exhausted.",
+                "type": 2,
                 "next": "dream"
             },
             {
                 "option": "Keep screaming",
-                "next": "end bird"
+                "next": "end bird",
+                "type": 0
             }
         ]
     },
@@ -158,14 +182,17 @@
         "options": [
             {
                 "option": "Jump out of the vent",
+                "type": 1,
                 "next": "cafe"
             },
             {
                 "option": "Keep moving through the vent",
+                "type": 2,
                 "next": "hvac"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "roach"
             }
         ]
@@ -183,14 +210,17 @@
         "options": [
             {
                 "option": "Party with the rats",
+                "type": 1,
                 "next": "tired"
             },
             {
                 "option": "Ask the rat DJ to play some better tunes",
+                "type": 2,
                 "next": "crack"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "music"
             }
         ]
@@ -208,14 +238,17 @@
         "options": [
             {
                 "option": "Jump on their wheel spoke to catch a ride",
+                "type": 1,
                 "next": "speed"
             },
             {
                 "option": "Ignore them and keep walking",
+                "type": 2,
                 "next": "town"
             },
             {
                 "option": "Scream",
+                "type": 3,
                 "next": "bird-2"
             }
         ]
@@ -227,15 +260,18 @@
         "options": [
             {
                 "option": "Get up and keep walking",
-                "next": "drain"
+                "next": "drain",
+                "type": 1
             },
             {
                 "option": "Give up and cry",
-                "next": "dog"
+                "next": "dog",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "end worm"
+                "next": "end worm",
+                "type": 0
             }
         ]
     },
@@ -246,15 +282,18 @@
         "options": [
             {
                 "option": "Party with the rats",
-                "next": "tired"
+                "next": "tired",
+                "type": 1
             },
             {
                 "option": "Ask the rat DJ to play some better tunes",
-                "next": "crack"
+                "next": "crack",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "music"
+                "next": "music",
+                "type": 3
             }
         ]
     },
@@ -271,15 +310,18 @@
         "options": [
             {
                 "option": "Ask them the way to town",
-                "next": "town"
+                "next": "town",
+                "type": 1
             },
             {
                 "option": "Take a nap. You are exhausted.",
-                "next": "dream"
+                "next": "dream",
+                "type": 2
             },
             {
                 "option": "Keep screaming",
-                "next": "end bird"
+                "next": "end bird",
+                "type": 0
             }
         ]
     },
@@ -290,15 +332,18 @@
         "options": [
             {
                 "option": "Wiggle your way out",
-                "next": "ground"
+                "next": "ground",
+                "type": 1
             },
             {
                 "option": "Stay put and pretend they can't see you",
-                "next": "ground"
+                "next": "ground",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "bird"
+                "next": "bird",
+                "type": 3
             }
         ]
     },
@@ -309,15 +354,18 @@
         "options": [
             {
                 "option": "Wiggle your way out",
-                "next": "ground"
+                "next": "ground",
+                "type": 1
             },
             {
                 "option": "Stay put and pretend they can't see you",
-                "next": "ground"
+                "next": "ground",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "bird"
+                "next": "bird",
+                "type": 3
             }
         ]
     },
@@ -328,15 +376,18 @@
         "options": [
             {
                 "option": "Ride the stampede",
-                "next": "hvac"
+                "next": "hvac",
+                "type": 1
             },
             {
                 "option": "Jump out onto the hostess",
-                "next": "cafe"
+                "next": "cafe",
+                "type": 2
             },
             {
                 "option": "Keep screaming",
-                "next": "end roach"
+                "next": "end roach",
+                "type": 0
             }
         ]
     },
@@ -353,15 +404,18 @@
         "options": [
             {
                 "option": "Keep dancing",
-                "next": "vent"
+                "next": "vent",
+                "type": 1
             },
             {
                 "option": "Take a break and drink some water",
-                "next": "watercooler"
+                "next": "watercooler",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "music"
+                "next": "music",
+                "type": 3
             }
         ]
     },
@@ -372,15 +426,18 @@
         "options": [
             {
                 "option": "Squeeze through the crack",
-                "next": "outside"
+                "next": "outside",
+                "type": 1
             },
             {
                 "option": "Write a bad review of their establishment on Yelp",
-                "next": "crack-2"
+                "next": "crack-2",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "music"
+                "next": "music",
+                "type": 3
             }
         ]
     },
@@ -391,15 +448,18 @@
         "options": [
             {
                 "option": "Give up and dance with the rats",
-                "next": "tired"
+                "next": "tired",
+                "type": 1
             },
             {
                 "option": "Start a bar fight",
-                "next": "fight"
+                "next": "fight",
+                "type": 2
             },
             {
                 "option": "Keep screaming",
-                "next": "end music"
+                "next": "end music",
+                "type": 0
             }
         ]
     },
@@ -410,15 +470,18 @@
         "options": [
             {
                 "option": "KEEP HOLDING ON!",
-                "next": "end beach"
+                "next": "end beach",
+                "type": 0
             },
             {
                 "option": "Let go and accept your fate",
-                "next": "end beach"
+                "next": "end beach",
+                "type": 0
             },
             {
                 "option": "Scream",
-                "next": "person"
+                "next": "person",
+                "type": 3
             }
         ]
     },
@@ -435,15 +498,18 @@
         "options": [
             {
                 "option": "Keep swimming and let's see where you go",
-                "next": "end beach-2"
+                "next": "end beach-2",
+                "type": 0
             },
             {
                 "option": "Grab the wall and try to climb out",
-                "next": "lizard"
+                "next": "lizard",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "end drain"
+                "next": "end drain",
+                "type": 0
             }
         ]
     },
@@ -454,15 +520,18 @@
         "options": [
             {
                 "option": "Ask the dog for help",
-                "next": "dash"
+                "next": "dash",
+                "type": 1
             },
             {
                 "option": "Cry even louder",
-                "next": "end dog"
+                "next": "end dog",
+                "type": 0
             },
             {
                 "option": "Scream",
-                "next": "end worm"
+                "next": "end worm",
+                "type": 0
             }
         ]
     },
@@ -473,15 +542,18 @@
         "options": [
             {
                 "option": "Accept the ride",
-                "next": "car"
+                "next": "car",
+                "type": 1
             },
             {
                 "option": "Politely decline and keep dancing",
-                "next": "vent"
+                "next": "vent",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "music"
+                "next": "music",
+                "type": 3
             }
         ]
     },
@@ -492,15 +564,18 @@
         "options": [
             {
                 "option": "Take the car",
-                "next": "tire"
+                "next": "tire",
+                "type": 1
             },
             {
                 "option": "Just take the map",
-                "next": "town"
+                "next": "town",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "bird-2"
+                "next": "bird-2",
+                "type": 3
             }
         ]
     },
@@ -511,11 +586,13 @@
         "options": [
             {
                 "option": "Squeeze through the crack",
-                "next": "outside"
+                "next": "outside",
+                "type": 1
             },
             {
                 "option": "Scream",
-                "next": "music"
+                "next": "music",
+                "type": 2
             }
         ]
     },
@@ -526,15 +603,18 @@
         "options": [
             {
                 "option": "Take the car",
-                "next": "tire"
+                "next": "tire",
+                "type": 1
             },
             {
                 "option": "Just take the map",
-                "next": "town"
+                "next": "town",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "bird-2"
+                "next": "bird-2",
+                "type": 3
             }
         ]
     },
@@ -551,15 +631,18 @@
         "options": [
             {
                 "option": "Keep swimming and let's see where you go",
-                "next": "end beach-2"
+                "next": "end beach-2",
+                "type": 0
             },
             {
                 "option": "Grab the wall and try to climb out",
-                "next": "lizard"
+                "next": "lizard",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "end drain"
+                "next": "end drain",
+                "type": 0
             }
         ]
     },
@@ -576,15 +659,18 @@
         "options": [
             {
                 "option": "Accept his hand",
-                "next": "grass"
+                "next": "grass",
+                "type": 1
             },
             {
                 "option": "Bite him",
-                "next": "end beach-3"
+                "next": "end beach-3",
+                "type": 0
             },
             {
                 "option": "Scream",
-                "next": "end drain"
+                "next": "end drain",
+                "type": 0
             }
         ]
     },
@@ -601,15 +687,18 @@
         "options": [
             {
                 "option": "KEEP HOLDING ON!",
-                "next": "end beach"
+                "next": "end beach",
+                "type": 0
             },
             {
                 "option": "Let go and accept your fate",
-                "next": "end beach"
+                "next": "end beach",
+                "type": 0
             },
             {
                 "option": "Scream",
-                "next": "end worm"
+                "next": "end worm",
+                "type": 0
             }
         ]
     },
@@ -620,15 +709,18 @@
         "options": [
             {
                 "option": "Get in the car",
-                "next": "tire"
+                "next": "tire",
+                "type": 1
             },
             {
                 "option": "Ask for the map so you can walk",
-                "next": "town"
+                "next": "town",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "rock"
+                "next": "rock",
+                "type": 3
             }
         ]
     },
@@ -639,15 +731,18 @@
         "options": [
             {
                 "option": "Take the map and walk",
-                "next": "town"
+                "next": "town",
+                "type": 1
             },
             {
                 "option": "Panic, cry, and throw up",
-                "next": "dog"
+                "next": "dog",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "bird-2"
+                "next": "bird-2",
+                "type": 3
             }
         ]
     },
@@ -658,15 +753,18 @@
         "options": [
             {
                 "option": "Walk down the hill",
-                "next": "end beach-4"
+                "next": "end beach-4",
+                "type": 0
             },
             {
                 "option": "Take a nap and decide later",
-                "next": "rest"
+                "next": "rest",
+                "type": 2
             },
             {
                 "option": "Scream",
-                "next": "end worm"
+                "next": "end worm",
+                "type": 0
             }
         ]
     },
@@ -689,15 +787,18 @@
         "options": [
             {
                 "option": "Get in the car",
-                "next": "tire"
+                "next": "tire",
+                "type": 1
             },
             {
                 "option": "Ask for the map so you can walk",
-                "next": "town"
+                "next": "town",
+                "type": 2
             },
             {
                 "option": "Keep screaming",
-                "next": "end rock"
+                "next": "end rock",
+                "type": 0
             }
         ]
     },
@@ -720,11 +821,13 @@
         "options": [
             {
                 "option": "Walk down the hill",
-                "next": "end beach-4"
+                "next": "end beach-4",
+                "type": 0
             },
             {
                 "option": "Scream",
-                "next": "end worm"
+                "next": "end worm",
+                "type": 0
             }
         ]
     }
