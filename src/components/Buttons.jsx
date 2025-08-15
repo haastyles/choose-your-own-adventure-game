@@ -1,21 +1,34 @@
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
 function Buttons({
     options,
     handleOptionClick
 }) {
-    console.log("Buttons.jsx ", options);
     
-    // Convert options object to array
     const optionsArray = Object.values(options).filter(option => option && option.option);
-    
     return (
-        <div className="buttons">
+        <Stack direction="row" spacing={2} className="buttons">
             {optionsArray.map((option, index) => (
-                <button key={index} className={`option${index + 1}`} onClick={() => handleOptionClick(index)}>
+                <Button
+                    key={index}
+                    variant="contained"
+                    color="primary"
+                    onClick={() => handleOptionClick(index)}
+                    fullWidth
+                    sx={{
+                        textTransform: 'none',
+                        fontSize: '2rem',
+                        borderRadius: '100px',
+                        maxWidth: '100%', 
+                        padding: '1rem 2rem'
+                    }}
+                >
                     {option.option}
-                </button>
+                </Button>
             ))}
-        </div>
+        </Stack>
     );
-};
+}
 
 export default Buttons;

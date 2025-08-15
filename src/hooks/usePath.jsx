@@ -48,8 +48,19 @@ const usePath = () => {
             option2: screens[0].options[1],
             option3: screens[0].options[2]
         });
+        setOptionCount1(0);
+        setOptionCount2(0);
+        setOptionCount3(0);
     }
-    return { screen, options, handleOptionClick, startOverClick };
+    return {
+        screen,
+        options,
+        optionCount1,
+        optionCount2,
+        optionCount3,
+        handleOptionClick,
+        startOverClick
+    };
 }
 
 export default usePath;
