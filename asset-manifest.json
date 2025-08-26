@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/choose-your-own-adventure-game/static/css/main.04f396f1.css",
-    "main.js": "/choose-your-own-adventure-game/static/js/main.99373db1.js",
+    "main.js": "/choose-your-own-adventure-game/static/js/main.04b16852.js",
     "static/js/453.ef0efa72.chunk.js": "/choose-your-own-adventure-game/static/js/453.ef0efa72.chunk.js",
     "index.html": "/choose-your-own-adventure-game/index.html",
     "main.04f396f1.css.map": "/choose-your-own-adventure-game/static/css/main.04f396f1.css.map",
-    "main.99373db1.js.map": "/choose-your-own-adventure-game/static/js/main.99373db1.js.map",
+    "main.04b16852.js.map": "/choose-your-own-adventure-game/static/js/main.04b16852.js.map",
     "453.ef0efa72.chunk.js.map": "/choose-your-own-adventure-game/static/js/453.ef0efa72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04f396f1.css",
-    "static/js/main.99373db1.js"
+    "static/js/main.04b16852.js"
   ]
 }
