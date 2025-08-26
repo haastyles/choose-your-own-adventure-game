@@ -26,30 +26,60 @@ function PromptScreen() {
     }) => {
         if (optionCount1 / totalOptions > 0.5) {
             if (optionCount1 / totalOptions > 0.7) {
-                return pasta[0];
+                return {
+                        shape: pasta[0].name,
+                        alignment: pasta[0].alignment
+                    };
             } else if (optionCount3 > optionCount2) {
-                return pasta[2]
+                return {
+                    shape: pasta[2].name,
+                    alignment: pasta[2].alignment
+                };
             } else {
-                return pasta[1]
+                return {
+                    shape: pasta[1].name,
+                    alignment: pasta[1].alignment
+                };
             }
         } else if (optionCount2 / totalOptions > 0.5) {
             if (optionCount2 / totalOptions > 0.7) {
-                return pasta[4];
+                return {
+                    shape: pasta[4].name,
+                    alignment: pasta[4].alignment
+                };
             } else if (optionCount1 > optionCount3) {
-                return pasta[3]
+                return {
+                    shape: pasta[3].name,
+                    alignment: pasta[3].alignment
+                };
             } else {
-                return pasta[5]
+                return {
+                    shape: pasta[5].name,
+                    alignment: pasta[5].alignment
+                };
             }
         } else if (optionCount3 / totalOptions > 0.5) {
             if (optionCount3 / totalOptions > 0.7) {
-                return pasta[8];
+                return {
+                    shape: pasta[8].name,
+                    alignment: pasta[8].alignment
+                };
             } else if (optionCount1 > optionCount2) {
-                return pasta[6]
+                return {
+                    shape: pasta[6].name,
+                    alignment: pasta[6].alignment
+                };
             } else {
-                return pasta[7]
+                return {
+                    shape: pasta[7].name,
+                    alignment: pasta[7].alignment
+                };
             }
         } else {
-            return pasta[4];
+            return {
+                shape: pasta[4].name,
+                alignment: pasta[4].alignment
+            };
         }
     }
 
@@ -73,20 +103,21 @@ function PromptScreen() {
                     {screen.text}
                 </Typography>
                 <Typography
-                    variant="body1"
-                    color="text.secondary"
-                >
-                    Total Options: {totalOptions}
-                </Typography>
-                <Typography
                     variant="h4"
                     align="center"
-                    color="primary"
                 >
-                    {Array.isArray(pastaResult)
-                        ? pastaResult.join(', ')
-                        : Object.values(pastaResult).join(', ')
-                    }
+                    <span>What pasta shape are you? </span>
+                    <Typography variant="h4" sx={{ color: 'primary.dark'}}>{pastaResult.shape.toUpperCase()}</Typography>
+                    <br />
+                    <span>Your alignment: </span>
+                    <Typography variant="h4" sx={{ color: 'secondary.dark'}}>{pastaResult.alignment.toUpperCase()}</Typography>
+                    <br />
+                    <Typography
+                        variant="body1"
+                        color="text.secondary"
+                    >
+                        Total decisions made: {totalOptions}
+                    </Typography>
                 </Typography>
                 <Button
                     variant="contained"
