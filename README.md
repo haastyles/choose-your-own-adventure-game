@@ -11,3 +11,7 @@ Based on how you navigate the game, you will be given a result of "What type of 
 This is a React app, so run the following command in your terminal in order to play:
 
 ```npm start```
+
+## To play
+
+Click on this link: https://haastyles.github.io/choose-your-own-adventure-game/
