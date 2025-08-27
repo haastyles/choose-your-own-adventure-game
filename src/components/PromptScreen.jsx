@@ -1,10 +1,30 @@
-
 import Buttons from './Buttons.jsx';
 import usePath from '../hooks/usePath.jsx';
 import pasta from '../data/pastaShapes.json';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import angelHair from '../photos/1-angel-hair.jpeg';
+import macaroni from '../photos/2-macaroni.jpeg';
+import farfalle from '../photos/3-farfarle.jpeg';
+import fusilli from '../photos/4-fusilli.jpeg';
+import spaghetti from '../photos/5-spaghetti.jpeg';
+import rigatoni from '../photos/6-rigatoni.jpeg';
+import penne from '../photos/7-penne.jpeg';
+import pastina from '../photos/8-pastina.jpeg';
+import rotelle from '../photos/9-rotelle.jpeg';
+
+const pastaImages = [
+    angelHair,
+    macaroni,
+    farfalle,
+    fusilli,
+    spaghetti,
+    rigatoni,
+    penne,
+    pastina,
+    rotelle
+];
 
 function PromptScreen() {
     const { 
@@ -29,19 +49,19 @@ function PromptScreen() {
                 return {
                         shape: pasta[0].name,
                         alignment: pasta[0].alignment,
-                        image: pasta[0].image
+                        image: pastaImages[0]
                     };
             } else if (optionCount3 > optionCount2) {
                 return {
                     shape: pasta[2].name,
                     alignment: pasta[2].alignment,
-                    image: pasta[2].image   
+                    image: pastaImages[2]
                 };
             } else {
                 return {
                     shape: pasta[1].name,
                     alignment: pasta[1].alignment,
-                    image: pasta[1].image
+                    image: pastaImages[1]
                 };
             }
         } else if (optionCount2 / totalOptions > 0.35) {
@@ -49,19 +69,19 @@ function PromptScreen() {
                 return {
                     shape: pasta[4].name,
                     alignment: pasta[4].alignment,
-                    image: pasta[4].image
+                    image: pastaImages[4]
                 };
             } else if (optionCount1 > optionCount3) {
                 return {
                     shape: pasta[3].name,
                     alignment: pasta[3].alignment,
-                    image: pasta[3].image
+                    image: pastaImages[3]
                 };
             } else {
                 return {
                     shape: pasta[5].name,
                     alignment: pasta[5].alignment,
-                    image: pasta[5].image
+                    image: pastaImages[5]
                 };
             }
         } else if (optionCount3 / totalOptions > 0.35) {
@@ -69,26 +89,26 @@ function PromptScreen() {
                 return {
                     shape: pasta[8].name,
                     alignment: pasta[8].alignment,
-                    image: pasta[8].image
+                    image: pastaImages[8]
                 };
             } else if (optionCount1 > optionCount2) {
                 return {
                     shape: pasta[6].name,
                     alignment: pasta[6].alignment,
-                    image: pasta[6].image
+                    image: pastaImages[6]
                 };
             } else {
                 return {
                     shape: pasta[7].name,
                     alignment: pasta[7].alignment,
-                    image: pasta[7].image
+                    image: pastaImages[7]
                 };
             }
         } else {
             return {
                 shape: pasta[4].name,
                 alignment: pasta[4].alignment,
-                image: pasta[4].image
+                image: pastaImages[4]
             };
         }
     }
