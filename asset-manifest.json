@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/choose-your-own-adventure-game/static/css/main.04f396f1.css",
-    "main.js": "/choose-your-own-adventure-game/static/js/main.6dc62284.js",
+    "main.js": "/choose-your-own-adventure-game/static/js/main.ada5090c.js",
     "static/js/453.ef0efa72.chunk.js": "/choose-your-own-adventure-game/static/js/453.ef0efa72.chunk.js",
+    "static/media/8-pastina.jpeg": "/choose-your-own-adventure-game/static/media/8-pastina.3ad471936f20c49ef759.jpeg",
+    "static/media/7-penne.jpeg": "/choose-your-own-adventure-game/static/media/7-penne.8973faad5cae6b98c4da.jpeg",
+    "static/media/9-rotelle.jpeg": "/choose-your-own-adventure-game/static/media/9-rotelle.8f32fdb73a4ea1b42880.jpeg",
+    "static/media/1-angel-hair.jpeg": "/choose-your-own-adventure-game/static/media/1-angel-hair.50e3aa26585fe3f08c86.jpeg",
+    "static/media/5-spaghetti.jpeg": "/choose-your-own-adventure-game/static/media/5-spaghetti.a8a3d1a59f91ae0a92d7.jpeg",
+    "static/media/4-fusilli.jpeg": "/choose-your-own-adventure-game/static/media/4-fusilli.4a2938ab889292c3bb61.jpeg",
+    "static/media/3-farfarle.jpeg": "/choose-your-own-adventure-game/static/media/3-farfarle.a4401e76fbd002e4b7b9.jpeg",
+    "static/media/6-rigatoni.jpeg": "/choose-your-own-adventure-game/static/media/6-rigatoni.647dc34481c9449f6691.jpeg",
     "index.html": "/choose-your-own-adventure-game/index.html",
     "main.04f396f1.css.map": "/choose-your-own-adventure-game/static/css/main.04f396f1.css.map",
-    "main.6dc62284.js.map": "/choose-your-own-adventure-game/static/js/main.6dc62284.js.map",
+    "main.ada5090c.js.map": "/choose-your-own-adventure-game/static/js/main.ada5090c.js.map",
     "453.ef0efa72.chunk.js.map": "/choose-your-own-adventure-game/static/js/453.ef0efa72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04f396f1.css",
-    "static/js/main.6dc62284.js"
+    "static/js/main.ada5090c.js"
   ]
 }
