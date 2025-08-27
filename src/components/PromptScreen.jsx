@@ -24,8 +24,8 @@ function PromptScreen() {
         optionCount2,
         optionCount3
     }) => {
-        if (optionCount1 / totalOptions > 0.5) {
-            if (optionCount1 / totalOptions > 0.7) {
+        if (optionCount1 / totalOptions > 0.35) {
+            if (optionCount1 / totalOptions > 0.5) {
                 return {
                         shape: pasta[0].name,
                         alignment: pasta[0].alignment
@@ -41,8 +41,8 @@ function PromptScreen() {
                     alignment: pasta[1].alignment
                 };
             }
-        } else if (optionCount2 / totalOptions > 0.5) {
-            if (optionCount2 / totalOptions > 0.7) {
+        } else if (optionCount2 / totalOptions > 0.35) {
+            if (optionCount2 / totalOptions > 0.5) {
                 return {
                     shape: pasta[4].name,
                     alignment: pasta[4].alignment
@@ -58,8 +58,8 @@ function PromptScreen() {
                     alignment: pasta[5].alignment
                 };
             }
-        } else if (optionCount3 / totalOptions > 0.5) {
-            if (optionCount3 / totalOptions > 0.7) {
+        } else if (optionCount3 / totalOptions > 0.35) {
+            if (optionCount3 / totalOptions > 0.5) {
                 return {
                     shape: pasta[8].name,
                     alignment: pasta[8].alignment
@@ -122,9 +122,15 @@ function PromptScreen() {
                 <Button
                     variant="contained"
                     onClick={startOverClick}
-                    sx={{ borderRadius: '999px', px: 4 }}
+                    sx={{
+                        textTransform: 'none',
+                        fontSize: '1rem',
+                        borderRadius: '100px',
+                        maxWidth: '100%', 
+                        padding: '1rem 1rem'
+                    }}
                 >
-                    Play Again
+                    PLAY AGAIN
                 </Button>
             </Box>
         );

@@ -18,10 +18,10 @@ function Buttons({
                     fullWidth
                     sx={{
                         textTransform: 'none',
-                        fontSize: '2rem',
+                        fontSize: '1rem',
                         borderRadius: '100px',
                         maxWidth: '100%', 
-                        padding: '1rem 2rem'
+                        padding: '1rem 1rem'
                     }}
                 >
                     {option.option}
