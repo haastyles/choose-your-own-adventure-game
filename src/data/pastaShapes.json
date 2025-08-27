@@ -1,56 +1,65 @@
 [
     {
-        "id": 1,
-        "name": "Angel Hair",
-        "description": "",
-        "alignment": "lawful good"
+    "id": 1,
+    "name": "Angel Hair",
+    "description": "",
+    "alignment": "lawful good",
+    "image": "/photos/1-angel-hair.jpeg"
     },
     {
-        "id": 2,
-        "name": "Macaroni",
-        "description": "",
-        "alignment": "neutral good"
+    "id": 2,
+    "name": "Macaroni",
+    "description": "",
+    "alignment": "neutral good",
+    "image": "/photos/2-macaroni.jpeg"
     },
     {
-        "id": 3,
-        "name": "Farfalle",
-        "description": "",
-        "alignment": "chaotic good"
+    "id": 3,
+    "name": "Farfalle",
+    "description": "",
+    "alignment": "chaotic good",
+    "image": "/photos/3-farfalle.jpeg"
     },
     {
-        "id": 4,
-        "name": "Fusilli",
-        "description": "",
-        "alignment": "lawful neutral"
+    "id": 4,
+    "name": "Fusilli",
+    "description": "",
+    "alignment": "lawful neutral",
+    "image": "/photos/4-fusilli.jpeg"
     },
     {
-        "id": 5,
-        "name": "Spaghetti",
-        "description": "",
-        "alignment": "true neutral"
+    "id": 5,
+    "name": "Spaghetti",
+    "description": "",
+    "alignment": "true neutral",
+    "image": "/photos/5-spaghetti.jpeg"
     },
     {
-        "id": 6,
-        "name": "Rigatoni",
-        "description": "",
-        "alignment": "chaotic neutral"
+    "id": 6,
+    "name": "Rigatoni",
+    "description": "",
+    "alignment": "chaotic neutral",
+    "image": "/photos/6-rigatoni.jpeg"
     },
     {
-        "id": 7,
-        "name": "Penne",
-        "description": "",
-        "alignment": "lawful evil"
+    "id": 7,
+    "name": "Penne",
+    "description": "",
+    "alignment": "lawful evil",
+    "image": "/photos/7-penne.jpeg"
     },
     {
-        "id": 8,
-        "name": "Pastina",
-        "description": "",
-            "alignment": "neutral evil"
+    "id": 8,
+    "name": "Pastina",
+    "description": "",
+    "alignment": "neutral evil",
+    "image": "/photos/8-pastina.jpeg"
     },
     {
-        "id": 9,
-        "name": "Rotelle",
-        "description": "",
-        "alignment": "chaotic evil"
+    "id": 9,
+    "name": "Rotelle",
+    "description": "",
+    "alignment": "chaotic evil",
+    "image": "/photos/9-rotelle.jpeg"
     }
 ]

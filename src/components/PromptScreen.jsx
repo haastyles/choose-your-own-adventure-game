@@ -28,57 +28,67 @@ function PromptScreen() {
             if (optionCount1 / totalOptions > 0.5) {
                 return {
                         shape: pasta[0].name,
-                        alignment: pasta[0].alignment
+                        alignment: pasta[0].alignment,
+                        image: pasta[0].image
                     };
             } else if (optionCount3 > optionCount2) {
                 return {
                     shape: pasta[2].name,
-                    alignment: pasta[2].alignment
+                    alignment: pasta[2].alignment,
+                    image: pasta[2].image   
                 };
             } else {
                 return {
                     shape: pasta[1].name,
-                    alignment: pasta[1].alignment
+                    alignment: pasta[1].alignment,
+                    image: pasta[1].image
                 };
             }
         } else if (optionCount2 / totalOptions > 0.35) {
             if (optionCount2 / totalOptions > 0.5) {
                 return {
                     shape: pasta[4].name,
-                    alignment: pasta[4].alignment
+                    alignment: pasta[4].alignment,
+                    image: pasta[4].image
                 };
             } else if (optionCount1 > optionCount3) {
                 return {
                     shape: pasta[3].name,
-                    alignment: pasta[3].alignment
+                    alignment: pasta[3].alignment,
+                    image: pasta[3].image
                 };
             } else {
                 return {
                     shape: pasta[5].name,
-                    alignment: pasta[5].alignment
+                    alignment: pasta[5].alignment,
+                    image: pasta[5].image
                 };
             }
         } else if (optionCount3 / totalOptions > 0.35) {
             if (optionCount3 / totalOptions > 0.5) {
                 return {
                     shape: pasta[8].name,
-                    alignment: pasta[8].alignment
+                    alignment: pasta[8].alignment,
+                    image: pasta[8].image
                 };
             } else if (optionCount1 > optionCount2) {
                 return {
                     shape: pasta[6].name,
-                    alignment: pasta[6].alignment
+                    alignment: pasta[6].alignment,
+                    image: pasta[6].image
                 };
             } else {
                 return {
                     shape: pasta[7].name,
-                    alignment: pasta[7].alignment
+                    alignment: pasta[7].alignment,
+                    image: pasta[7].image
                 };
             }
         } else {
             return {
                 shape: pasta[4].name,
-                alignment: pasta[4].alignment
+                alignment: pasta[4].alignment,
+                image: pasta[4].image
             };
         }
     }
@@ -108,6 +118,12 @@ function PromptScreen() {
                 >
                     <span>What pasta shape are you? </span>
                     <Typography variant="h4" sx={{ color: 'primary.dark'}}>{pastaResult.shape.toUpperCase()}</Typography>
+                    <br />
+                    <Box
+                      component="img"
+                      src={pastaResult.image}
+                      alt={pastaResult.shape}
+                    />
                     <br />
                     <span>Your alignment: </span>
                     <Typography variant="h4" sx={{ color: 'secondary.dark'}}>{pastaResult.alignment.toUpperCase()}</Typography>
